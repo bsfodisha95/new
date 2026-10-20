@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Next.js build outputs
+.next/
+**/.next/
+out/
+**/out/
+build/
+**/build/
+dist/
+**/dist/
+
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Turbo
+.turbo/
+**/.turbo/
+
+# Vercel
+.vercel/
+**/.vercel/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+**/coverage/
+
+# Misc
+*.pem
+.cache/
+
+# pnpm lockfile conflicts (keep root lockfile only)
+apps/*/pnpm-workspace.yaml
+
+# Package manager debug logs
+.pnpm-debug.log*
+.npm-debug.log*
+
+# Database files (if you add any locally later)
+*.db
+*.sqlite
+
+# Uploaded files / local media (if any)
+/public/uploads/
+
+# Service account keys / credentials (if added later)
+*serviceAccountKey*.json
+*credentials*.json
